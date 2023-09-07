@@ -1,5 +1,5 @@
-
 'use client'
+
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt, faUsers, faUser, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
@@ -11,35 +11,7 @@ import { toast } from 'react-toastify';
  const Dashboard = ({params}:any) => {
   const [admins, setAdmins]:any = useState([]);
   const [employees, setEmployees]:any = useState([]);
-  
-// console.log('admin',admins)
-//   useEffect(() => {
-//     fetchAdmin();
-//     fetchEmployee();
-//   }, [email]);
-
-//   const fetchAdmin = async () => {
-//     try {
-//       const res = await axios.get(`/api/login/mazharkamboh914@gmail.com`);
-//       setAdmins([res.data.res]);
-//       // console.log(res.data.res)
-//       toast.success(res.data.message);
-//     } catch (error) {
-//       console.log(error);
-//     }
-//   };
-
-//   const fetchEmployee = async () => {
-//     try {
-//       const res = await axios.get(`/api/employee`);
-//       setEmployees(res.data.res.length); // Set employees directly from the API response
-//       // console.log('employee data', res.data);
-//     } catch (error) {
-//       console.log(error);
-//     }
-//   };
-
-
+//   nn
   return (
     <>
       <div className="flex">
